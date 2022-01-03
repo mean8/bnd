@@ -78,8 +78,8 @@ mockito-deps: org.objenesis; version=2.6.0,\
 
 -plugin.8.nexus: \
     aQute.bnd.repository.maven.provider.MavenBndRepository; \
-        snapshotUrl = 'http://222.96.103.245:39001/content/repositories/snapshots/'; \
-        releaseUrl  = 'http://222.96.103.245:39001/service/local/staging/deploy/maven2/'; \
+        snapshotUrl = 'http://222.96.103.245:39001/repository/maven-snapshots/'; \
+        releaseUrl  = 'http://222.96.103.245:39001/repository/maven-releases/'; \
                 noupdateOnRelease=true; \
         name="Sonatype"
 -releaserepo                Sonatype
