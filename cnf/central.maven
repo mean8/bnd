@@ -1,3 +1,5 @@
 # List repository contents using GAV coordinates
 
 org.mozilla:rhino:1.7.12
+redis.clients:jedis:2.9.0
+org.apache.commons:commons-pool2:2.5.0

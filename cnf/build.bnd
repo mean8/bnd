@@ -76,17 +76,17 @@ mockito-deps: org.objenesis; version=2.6.0,\
   net.bytebuddy.byte-buddy-agent; version=1.7.9 
 
 
--plugin.8.nexus: \
-    aQute.bnd.repository.maven.provider.MavenBndRepository; \
-        snapshotUrl = 'http://222.96.103.245:39001/repository/maven-snapshots/'; \
-        releaseUrl  = 'http://222.96.103.245:39001/repository/maven-releases/'; \
-                noupdateOnRelease=true; \
-        name="Sonatype"
--releaserepo                Sonatype
-​-groupid                                        biz.aQute.example
-​-connection-settings: \
-               ​server; \
-                       ​id=http://222.96.103.245:39001; \
-                       ​username=admin; \
-                       ​password=qkfka, \
-               ​bnd
+#-plugin.8.nexus: \
+#    aQute.bnd.repository.maven.provider.MavenBndRepository; \
+#        snapshotUrl = 'http://222.96.103.245:39001/repository/maven-snapshots/'; \
+#        releaseUrl  = 'http://222.96.103.245:39001/repository/maven-releases/'; \
+#                noupdateOnRelease=true; \
+#        name="Sonatype"
+#-releaserepo                Sonatype
+​#-groupid                                        biz.aQute.example
+​#-connection-settings: \
+#               ​server; \
+#                       ​id=http://222.96.103.245:39001; \
+#                       ​username=admin; \
+#                       ​password=qkfka, \
+#               ​bnd
