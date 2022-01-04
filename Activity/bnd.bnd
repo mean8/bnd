@@ -4,7 +4,8 @@
 	osgi.cmpn;version='7.0.0',\
 	org.eclipse.osgi,\
 	org.osgi.core,\
-	com.example.redis.api
+	com.example.redis.api,\
+	org.apache.felix.gogo.runtime
 
 -testpath: \
 	${junit},\
