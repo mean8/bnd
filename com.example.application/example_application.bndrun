@@ -1,10 +1,9 @@
 -runfw: org.eclipse.osgi;version='[3.13.100.v20180827-1536,3.13.100.v20180827-1536]'
 -runee: JavaSE-17
+-runproperties: osgi.console=
 -runrequires: \
 	bnd.identity;id='com.example.eval.rhino.provider',\
 	bnd.identity;id='com.example.eval.simple.provider',\
-	bnd.identity;id=Activity,\
-	bnd.identity;id=Service,\
 	bnd.identity;id='org.apache.felix.gogo.command',\
 	bnd.identity;id='org.apache.felix.gogo.shell'
 -runbundles: \
@@ -15,10 +14,4 @@
 	org.apache.felix.gogo.runtime;version='[1.0.10,1.0.11)',\
 	org.apache.felix.gogo.shell;version='[1.0.0,1.0.1)',\
 	org.apache.felix.scr;version='[2.1.10,2.1.11)',\
-	org.mozilla.rhino;version='[1.7.12,1.7.13)',\
-	Activity;version=snapshot,\
-	Service;version=snapshot,\
-	com.example.redis.api;version=snapshot,\
-	org.apache.commons.pool2;version='[2.5.0,2.5.1)',\
-	redis.clients.jedis;version='[2.9.0,2.9.1)'
--runproperties: osgi.console=
+	org.mozilla.rhino;version='[1.7.12,1.7.13)'
